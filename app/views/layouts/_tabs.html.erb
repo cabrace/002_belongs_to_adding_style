@@ -1,0 +1,10 @@
+<div class="tabs has-text-primary">
+  <ul>
+    <li class="<%= is_active?(:authors) %>" >
+      <%= link_to "Authors", authors_path %>
+    </li>
+    <li class="<%= active_page?(:books) %>">
+      <%= link_to "Books", books_path %>
+    </li>
+  </ul>
+</div>
