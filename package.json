@@ -1,5 +1,5 @@
 {
-  "name": "belongs-to",
+  "name":"rails002_belongs_to_adding_style",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
